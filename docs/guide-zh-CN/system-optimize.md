@@ -17,6 +17,11 @@
  * @property \common\components\Pay $pay
  ```
  
+ 在方法里，某个变量属于某个类的实例时，可以临时加上
+ 
+/* @var $example \comon\logic\xxx */ 
+/* @var $this yii\web\View */
+ 
  ### 性能优化
  
 ##### 1、开启生产环境，在项目初始化的时候执行以下代码，并配置项目信息
